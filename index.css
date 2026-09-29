@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+header{
+    background-color: rgb(135, 33, 33);
+    color: rgba(0, 0, 0, 0.995);
+    text-align: center;
+     padding: 30px;
+}
+header h1{
+    text-align: start;
+}
+
+header p{
+    text-align: start;
+}
+
+main{
+    padding: 40px;
+    text-align: center;
+}
+
+section{
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+button{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+button:hover{
+    transform: scale(1.2);
+}
+
+footer{
+    background-color: rgb(135, 33, 33);;
+    margin-top: 230px;
+    text-align: left;
+    padding: 20px;
+}
